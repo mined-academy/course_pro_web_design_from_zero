@@ -22,7 +22,7 @@ body {
 /* HEADER */
 
 header {
-    background: url('../img/bg.jpg') #49a3d6;
+    background: url("../img/bg.jpg") #49a3d6;
     background-repeat: no-repeat;
     background-position: center;
     max-height: 600px;
@@ -35,7 +35,7 @@ header .menu {
 
 header .menu a {
     margin: 0 20px;
-    color:#fff;
+    color: #fff;
     padding-bottom: 9px;
     display: inline-block;
     text-decoration: none;
@@ -246,4 +246,42 @@ footer .contact .form .button {
 
 footer .contact .form .button:hover {
     background: #387bea;
+}
+
+footer .social-networks {
+    background: #1e2b38;
+    padding: 60px 0;
+}
+
+footer .social-networks .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-networks a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    background: #ccc;
+    margin: 0 20px;
+}
+
+footer .social-networks .container .twitter:hover {
+    background: #55acee;
+}
+footer .social-networks .container .facebook:hover {
+    background: #3b5998;
+}
+footer .social-networks .container .youtube:hover {
+    background: #cd201f;
+}
+footer .social-networks .container .github:hover {
+    background: #666666;
+}
+footer .social-networks .container .instagram:hover {
+    background: #3f729b;
 }
