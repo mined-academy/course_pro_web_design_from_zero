@@ -120,3 +120,59 @@ header .text-container .text .profession {
     color: #3895ea;
     text-decoration: underline;
 }
+
+.main .work {
+    background: #f2f2f2;
+    padding: 60px 0;
+}
+
+.main .work .container {
+    overflow: hidden;
+}
+
+.main .work .title {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .work .work-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .work .work-container .work-item {
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+.main .work .work-container .work-item .thumb {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .work .work-container .work-item .thumb img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+.main .work .work-container .work-item .description {
+    text-align: center;
+}
+
+.main .work .work-container .work-item .description .name {
+    font-weight: 700;
+    color: #3895ea;
+    margin-bottom: 10px;
+}
+
+.main .work .work-container .work-item .description .category {
+    font-size: 14px;
+    color: #636363;
+}
