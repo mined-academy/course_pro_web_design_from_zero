@@ -285,3 +285,30 @@ footer .social-networks .container .github:hover {
 footer .social-networks .container .instagram:hover {
     background: #3f729b;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center;
+    }
+
+    .main .work .work-container .work-item {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .text-container .text .name {
+        font-size: 35px;
+    }
+
+    header .text-container .text .profession {
+        font-size: 18px;
+    }
+
+    footer .social-networks .container {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
