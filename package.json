@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "mustache": "^4.2.0"
+  },
+  "name": "course_pro_web_design_from_zero",
+  "description": "Tools:\r     - HTML\r     - CSS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

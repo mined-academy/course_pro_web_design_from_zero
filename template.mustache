@@ -20,8 +20,8 @@
 
             <div class="text-container">
                 <div class="text">
-                    <h1 class="name">Luis A. Vásquez</h1>
-                    <h2 class="profession">Web Developer</h2>
+                    <h1 class="name">{{ name }}</h1>
+                    <h2 class="profession">{{ profession }}</h2>
                 </div>
             </div>
         </div>
@@ -44,78 +44,17 @@
             <section class="container">
                 <h3 class="title">Work</h3>
                 <div class="work-container">
-                <div class="work-item work-container-item-1">
+                {{#items}}
+                <div class="work-item work-container-item-{{.}}">
                     <div class="thumb">
-                        <img src="img/work/1.jpg" alt="Lorem ipsum">
+                        <img src="img/work/{{.}}.jpg" alt="Lorem ipsum">
                     </div>
                     <div class="description">
                         <p class="name">Lorem ipsum</p>
                         <p class="category">HTML - CSS - PHP</p>
                     </div>
                 </div>
-                <div class="work-item work-container-item-2">
-                    <div class="thumb">
-                        <img src="img/work/2.jpg" alt="Lorem ipsum">
-                    </div>
-                    <div class="description">
-                        <p class="name">Lorem ipsum</p>
-                        <p class="category">HTML - CSS - PHP</p>
-                    </div>
-                </div>
-                <div class="work-item work-container-item-3">
-                    <div class="thumb">
-                        <img src="img/work/3.jpg" alt="Lorem ipsum">
-                    </div>
-                    <div class="description">
-                        <p class="name">Lorem ipsum</p>
-                        <p class="category">HTML - CSS - PHP</p>
-                    </div>
-                </div>
-                <div class="work-item work-container-item-4">
-                    <div class="thumb">
-                        <img src="img/work/4.jpg" alt="Lorem ipsum">
-                    </div>
-                    <div class="description">
-                        <p class="name">Lorem ipsum</p>
-                        <p class="category">HTML - CSS - PHP</p>
-                    </div>
-                </div>
-                <div class="work-item work-container-item-5">
-                    <div class="thumb">
-                        <img src="img/work/5.jpg" alt="Lorem ipsum">
-                    </div>
-                    <div class="description">
-                        <p class="name">Lorem ipsum</p>
-                        <p class="category">HTML - CSS - PHP</p>
-                    </div>
-                </div>
-                <div class="work-item work-container-item-6">
-                    <div class="thumb">
-                        <img src="img/work/6.jpg" alt="Lorem ipsum">
-                    </div>
-                    <div class="description">
-                        <p class="name">Lorem ipsum</p>
-                        <p class="category">HTML - CSS - PHP</p>
-                    </div>
-                </div>
-                <div class="work-item work-container-item-7">
-                    <div class="thumb">
-                        <img src="img/work/7.jpg" alt="Lorem ipsum">
-                    </div>
-                    <div class="description">
-                        <p class="name">Lorem ipsum</p>
-                        <p class="category">HTML - CSS - PHP</p>
-                    </div>
-                </div>
-                <div class="work-item work-container-item-8">
-                    <div class="thumb">
-                        <img src="img/work/8.jpg" alt="Lorem ipsum">
-                    </div>
-                    <div class="description">
-                        <p class="name">Lorem ipsum</p>
-                        <p class="category">HTML - CSS - PHP</p>
-                    </div>
-                </div>
+                {{/items}}
                 </div>
             </section>
         </section>
